@@ -1,0 +1,5 @@
+import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import "./styles/Contact.css";
+const links=[['Instagram','https://instagram.com/heiszodd'],['TikTok','https://tiktok.com/@heiszodd'],['X','https://x.com/heiszodd'],['YouTube','https://youtube.com/@heiszodd'],['GitHub','https://github.com/heiszodd'],['Telegram','https://t.me/zoddspace']];
+const Contact=()=> <div className="contact-section section-container" id="contact"><div className="contact-container"><h3>Contact</h3><div className="contact-flex"><div className="contact-box"><h4>Connect</h4><p>Builder · Trader · Creator</p><p>Web3, 3D web, systems architecture, and trading execution.</p></div><div className="contact-box"><h4>Social</h4>{links.map(([name,url])=><a key={name} href={url} target="_blank" rel="noreferrer" data-cursor="disable" className="contact-social">{name} <MdArrowOutward/></a>)}</div><div className="contact-box"><h2>Designed and Developed <br/>by <span>Zodd</span></h2><h5><MdCopyright/> 2026</h5></div></div></div></div>;
+export default Contact;

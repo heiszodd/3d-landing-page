@@ -1,0 +1,4 @@
+import "./styles/Career.css";
+const pillars=[['Building & Systems Architecture','Full-stack TypeScript, React/Next.js, Three.js, Smart Contracts'],['Technical & Fundamental Analysis','Market microstructure, orderflow, algorithmic models, systematic execution'],['Content Creation & Media','Visual storytelling, Web3 narratives, technical breakdowns, community growth']];
+const Career=()=> <div className="career-section section-container"><div className="career-container"><h2>Core <span>&</span><br/>interests</h2><div className="career-info"><div className="career-timeline"><div className="career-dot"/></div>{pillars.map(([title,copy],i)=><div className="career-info-box" key={title}><div className="career-info-in"><div className="career-role"><h4>{title}</h4><h5>ZODD / @HEISZODD</h5></div><h3>0{i+1}</h3></div><p>{copy}</p></div>)}</div></div></div>;
+export default Career;
