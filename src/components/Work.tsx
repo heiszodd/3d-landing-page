@@ -1,0 +1,4 @@
+import "./styles/Work.css";
+const tags = ["TypeScript", "Python", "Systems Architecture", "Algorithmic Execution", "Quantitative Analysis"];
+const Work = () => <section className="work-section" id="work"><div className="work-container section-container"><h2>Selected <span>Work</span></h2><article className="featured-project"><div className="project-kicker">Featured Project / System Overview</div><h3>ZSP Terminal / System Overview</h3><p>High-level algorithmic execution &amp; market microstructure system built for precision orderflow.</p><p>Core focus: systematic liquidity analysis, spatial market context, multi-timeframe execution, and disciplined risk management.</p><p className="project-disclaimer">This overview intentionally omits the proprietary internal model, specific formulas, exact setups, and trade secrets.</p><div className="project-tags">{tags.map((tag) => <span key={tag}>{tag}</span>)}</div></article></div></section>;
+export default Work;
