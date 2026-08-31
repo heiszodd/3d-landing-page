@@ -4,7 +4,7 @@ import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
-  { title: "Zoddspace", category: "Web3 Community & Experiments", tools: "React, TypeScript, Web3, motion design", image: "/images/callhq.png", link: "https://t.me/zoddspace" },
+  { title: "Zoddspace", category: "Web3 Community & Experiments", tools: "React, TypeScript, Web3, motion design", image: "/images/zsppic.png", link: "https://t.me/zoddspace" },
   { title: "3D Portfolio", category: "Immersive Developer Experience", tools: "Three.js, React Three Fiber, GSAP", image: "/images/whatsapp.png", link: "https://github.com/heiszodd/3d-portfolio" },
   { title: "On-chain Interfaces", category: "Product Design & Engineering", tools: "Full-stack systems, APIs, wallet flows", image: "/images/broki.png", link: "https://github.com/heiszodd" },
   { title: "Creative Systems", category: "Interactive Web Experiences", tools: "React, animation, rapid prototyping", image: "/images/orrdr.png", link: "https://github.com/heiszodd" },
